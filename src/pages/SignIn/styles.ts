@@ -15,7 +15,9 @@ export const Title = styled.Text`
 `
 
 export const Form = styled.TextInput`
-
+    
+    flex-direction: row;
+    flex: 1;
 `
 
 export const ForgotPassword = styled.TouchableOpacity`
@@ -37,7 +39,7 @@ export const CreateAccountButton = styled.TouchableOpacity`
     border-top-width: 1px;
     border-color: #232129;
     padding: 16px 0 ${16 + getBottomSpace()}px;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
